@@ -13,7 +13,7 @@
 
     "deploy":"npm run build --prefix Client && npm start --prefix Server", 
 
-    "test": "npm run  test --prefix Server && npm run test --prefix Client"
+    "test": "npm test --prefix Server && npm  test --prefix Client"
   },
   "keywords": [],
   "author": "",
